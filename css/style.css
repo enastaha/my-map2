@@ -1,0 +1,365 @@
+*{
+    
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+/************ start nav ******************/
+nav{
+    
+    
+    background-color: black;
+    padding-left: 10px;
+    
+}
+nav a{
+    
+    color: white;
+    display: inline-block;
+    padding:12px;
+    font-size: 12px;
+}
+
+nav .righta{
+    
+    float: right;
+}
+
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+
+/************ start header ******************/
+header{
+    
+    
+    padding: 70px 0px;
+    text-align: center;
+    
+}
+
+header h1{
+    font-family: oswald;
+}
+
+header p{
+    font-weight: bold;
+    
+}
+header p span{
+    
+    background-color: black;
+    color: white;
+}
+
+
+/************ start image sec ******************/
+
+.imagesection{
+    
+    
+    position: relative;
+}
+.imagesection img{
+    
+    width: 100%;
+}
+
+.imagesection .aboveimg{
+    position: absolute;
+    top:30%;
+    left: 50px;
+    color: white;
+    font-family: oswald;
+    
+    
+}
+
+.imagesection .aboveimg h3{
+    font-size: 35px;
+    letter-spacing: 5px;
+    
+}
+.imagesection .aboveimg h1{
+    
+    
+     font-size:55px;
+    letter-spacing:7px;
+    
+}.imagesection .aboveimg button{
+    
+    
+    background-color:gainsboro;
+    color: black;
+    padding: 15px 20px;
+    font-weight: bold;
+    opacity: 0.6;
+    
+}
+
+
+/************ start main******************/
+main{
+    
+    height: auto;
+    overflow: auto;
+    background-color: #F1F1F1;
+    padding: 20px;
+	
+}
+
+main .leftside{
+    
+    width: 65%;
+    float: left;
+	margin-bottom:10px;
+    background-color: white;
+}
+main .leftside article {
+    
+    padding: 20px;
+	margin-bottom:25px;
+	margin-right:15px;
+}
+
+
+
+main .leftside article h3,main .leftside article h4{
+    text-align: center;
+    padding-bottom: 15px;
+	font-weight:300px;
+}
+main .leftside article h3 .s1,main .leftside article h4 .s1{
+	
+	color:#ccc;
+}
+main .leftside article p{
+        padding-bottom: 15px;
+		padding-top:15px;
+    text-align: justify;
+
+    
+}
+main .leftside article .leftb{
+	color:black;
+	background-color:white;
+	border:1px solid #ccc;
+	font-weight:bold;
+	padding:8px 10px;
+}
+
+main .leftside article .leftb:hover{
+	
+	background-color:#ccc;
+}
+main .leftside article .rightb{
+	color:white;
+	background-color:black;
+	float:right;
+	border:none;
+	padding:8px 15px;
+	
+	
+} 
+main .leftside article .rightb:hover{
+	background-color:gray;
+	color:black;
+}
+main .leftside article .rightb span{
+	color:black;
+	background-color:white;
+	padding:2px 8px;
+	text-align:center;
+}
+main .leftside article hr{
+
+	background-color:lightgray;
+	opacity:0.5;
+	margin-bottom:25px
+}
+
+
+main .rightside{
+    width: 33%;
+    float: right;
+    
+	margin-bottom:25px;
+	margin-left:20px;
+    background-color: white;
+
+}
+
+main .rightside .div{
+    
+    border:none;
+   
+}
+
+
+main .rightside .dright{
+    
+    
+    background-color: black;
+    color: white;
+    
+}
+main .rightside .dright h4{
+	padding:10px 0px 0px 20px;
+}
+main .rightside .dright  p{
+    
+   padding: 20px 0px 10px 20px;
+    
+}
+main .rightside .dright img{
+    
+width: 100%;    
+}
+ main .rightside .right h4{
+	
+	background-color:black;
+	padding:10px;
+	color:white;
+}
+main .rightside ul{
+	
+	list-style-type:none;
+	
+}
+main .rightside ul li{
+	padding:5px;
+	
+}
+main .rightside ul li .pp {
+	text-align:justify;
+	display:inline-block;
+	padding:5px;
+	line-height:1.5;
+}
+main .rightside ul li:hover{
+	background-color:#ccc;
+	
+}
+main .rightside .rightd1{
+	background-color:width;
+	margin:15px;
+}
+main .rightside .rightd2{
+	background-color:#CCC;
+	height:200px;
+	position:relative;
+	top:0px;
+	
+}
+main .rightside .rightd2 .dp{
+	text-align:center;
+	padding-top:80px;
+}
+main .rightside .right3 .p5{
+	margin:30px;
+	
+}
+main .rightside .right3 .p5 span{
+	background-color:#ccc;
+	opacity:0.6;
+	margin-bottom:15px;
+	font-size:12px;
+	padding:2px 5px;
+	display:inline-block;
+}
+main .rightside .right3 .p5 .ff{
+	background-color:black;
+	color:white;
+	padding:2px 5px;
+	margin-bottom :15px;
+	font-size:16px;
+	
+}
+main .rightside .imagediv {
+	margin:12px; 
+	
+}
+main .rightside .link a{
+	
+    color: black;
+    display: inline-block;
+    padding:12px 2px;
+    font-size: 20px;
+}
+main .rightside .link a:hover{
+	color:#ccc;
+}
+main .rightside p{
+	padding:10px;
+	margin:10px;
+}
+main .rightside  input{
+	width:95%;
+	display:block;
+	padding:10px;
+	margin:10px;
+	border:1px solid #ccc;
+}
+main .rightside  button{
+	background-color:#f44336;
+	display:black;
+	width:95%;
+	padding:10px;
+	margin:10px;
+	border:none;
+}
+main .rightside  button:hover{
+	background-color:#ccc;
+	
+}
+/************ start footer******************/
+
+
+.clear{
+    
+    content:" ";
+    clear: both;
+}
+
+footer{
+    
+    
+    background-color: #616161;
+    color: white;
+    padding: 40px 25px;
+}
+
+footer button  {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    
+}
+footer a{
+  text-decoration: none;  
+   color: white;
+}
+footer button i{
+	
+	padding:0px; 30px;
+}
+footer button:hover{
+    background-color: #ccc;
+    color: black;
+}
+footer p{
+    padding-top: 30px;
+    
+}
+
+footer p a{
+    
+    color: white;
+}
